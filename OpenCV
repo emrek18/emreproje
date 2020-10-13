@@ -1,0 +1,13 @@
+Dikdörtgen oluşturmak için kullandığımız kodlar:
+
+
+import cv2
+ilkresim = cv2.imread("messi.jpg")
+pixel = ilkresim[400:600,1000:1200]
+cv2.rectangle(ilkresim,(1000,400),(1200,600),(255,255,0),4)
+cv2.imshow("Messi", ilkresim)
+cv2.waitKey()
+cv2.destroyAllWindows()
+
+#cv2.rectangle = dikdörtgen çiziyior.
+
