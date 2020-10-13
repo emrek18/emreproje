@@ -1,2 +1,0 @@
-# emreproje
-çalışmak
